@@ -1,0 +1,197 @@
+html{
+  background: url('../Photos/BarnHalf.jpg'); background-color: #22E18F; background-size: 100%;
+}/*This section is a workaround for Chrome until they fix the mix-blend-mode: overlay bug.*/
+
+body{
+
+ background: url('../Photos/BarnHalf.jpg'); background-color: #22E18F; background-size: 100%;
+}
+#WindowHolder{
+ position: relative;
+ left: 0;
+ right: 0;
+ margin: 0 auto;
+
+ height: 40vw;
+ width: 50vw;
+
+}
+#Window{
+ position: relative;
+ left: 0;
+ right: 0;
+ margin: 0 auto;
+ max-width: 100%;
+ max-height: 100%;
+ z-index: 5;
+}
+#Sidebar{
+position: relative;
+
+height: 40vw;
+}
+
+#SmallWindow1{
+position: absolute;
+top: 3.3%;
+left: 5%;
+
+height: 12vw;
+width: 14vw;
+}
+#SmallWindow2{
+position: absolute;
+height: 12vw;
+width: 14vw;
+
+top: 33.8%;
+left: 25%;
+}
+#SmallWindow3{
+position: absolute;
+height: 12vw;
+width: 14vw;
+
+top: 64.3%;
+left: 45%;
+}
+#SmallWindow4{
+position: absolute;
+height: 12vw;
+width: 14vw;
+
+top: 3.3%;
+right: 5%;
+}
+#SmallWindow5{
+position: absolute;
+height: 12vw;
+width: 14vw;
+
+top: 33.8%;
+right: 25%;
+}
+#SmallWindow6{
+position: absolute;
+height: 12vw;
+width: 14vw;
+
+top: 64.3%;
+right: 45%;
+}
+#SceneryLink{
+ width: 32%;
+ height: 28%;
+ z-index: 3;
+}
+#PeopleLink{
+ width: 29%;
+ height: 28%;
+ z-index: 4;
+}
+#AnimalLink{
+ position: absolute;
+ left: 21%;
+
+ width: 30%;
+ height: 28%;
+
+ z-index: 1;
+}
+#CultureLink{
+ position: absolute;
+ top: 47%;
+ left: 48.3%;
+
+ width: 30%;
+ height: 33%;
+
+ z-index: 2;
+}
+.hoverScreen{
+ width: 18.5%;
+ height: 29%;
+ z-index: 6;
+
+ background-color: #fff;
+ opacity: .2;
+}
+.hoverScreen:hover{
+opacity: 0;
+}
+.window-top-left{
+ position: absolute;
+ top: 19%;
+ left: 30%;
+}
+.window-top-right{
+ position: absolute;
+ top: 19%;
+ left: 50%;
+}
+.window-bottom-left{
+position: absolute;
+top: 50%;
+left: 30%;
+}
+.window-bottom-right{
+position: absolute;
+top: 50%;
+left: 50%;
+}
+.window-caption{
+ width: 18.5%;
+
+ font-family: Garamond;
+ color: maroon;
+ font-size: 1.6vw;
+ font-weight: bold;
+}
+.small1Pos{
+ position: absolute;
+ height: 7.25vw;
+ width: 7.5vw;
+
+ left: 17.75%;
+ top: 9%;
+}
+.small2Pos{
+ position: absolute;
+ height: 7.25vw;
+ width: 7.5vw;
+
+ left: 37.75%;
+ top: 39.5%;
+}
+.small3Pos{
+ position: absolute;
+ height: 7.25vw;
+ width: 7.5vw;
+
+ left: 57.75%;
+ top: 70%;
+}
+.small4Pos{
+ position: absolute;
+ height: 7.25vw;
+ width: 7.5vw;
+
+ right: 18.75%;
+ top: 9%;
+}
+.small5Pos{
+ position: absolute;
+ height: 7.25vw;
+ width: 7.5vw;
+
+ right: 38.75%;
+ top: 39.5%;
+}
+.small6Pos{
+ position: absolute;
+ height: 7.25vw;
+ width: 7.5vw;
+
+ right: 58.75%;
+ top: 70%;
+}

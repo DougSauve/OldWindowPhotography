@@ -1,0 +1,74 @@
+html{
+  background: url('../Photos/Scenery.jpg'); background-color: #22E18F; background-size: 100%;
+	background-attachment: fixed;
+}/*This section is a workaround for Chrome until they fix the mix-blend-mode: overlay bug.*/
+
+body{
+ background: url('../Photos/Scenery.jpg'); background-color: #22E18F; background-size: 100%;
+ background-attachment: fixed;
+}
+#SuperScreen{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -4;
+}
+#SuperScreen img{
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  margin: auto;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+#Footer{
+  position: fixed;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: 0 auto;
+  max-width: 80%;
+
+  z-index: -3;
+
+  text-align: center;
+
+  background-color: rgba(200,200,200,1);
+  color: green;
+  font-size: 22px;
+  border: 1px solid black;
+}
+#WindowLogo{
+	position: relative;
+	top: 4vw;
+	left: 6vw;
+	height: 18vw;
+	width: 18vw;
+	mix-blend-mode: overlay;
+}
+.gallery-slot{
+  background-color: rgba(255,255,255,0.8);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+
+}
+.gallery-slot img{
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
+
+		border: 0.2vw solid rgba(255,255,255,0.7);
+
+    image-orientation: from-image;
+}
+.price{
+  color: rgba(75,75,75,1);
+  font-size: 16px;
+}
+.cart-button{
+  color: blue;
+font-weight: 700;
+}

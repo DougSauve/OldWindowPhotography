@@ -1,0 +1,52 @@
+online store for:
+
+Photography - all pictures, pretty much.
+
+Pages:
+
+Landing Page
+About
+Galleries - //different styles of photography here - scenery, portraits/family, macrophotography,
+Contact //services, photo shoots? built-in email
+
+
+Shopping cart/online store //prints/download-able, refers to paypal
+Reviews built in...?
+
+
+
+//rounded window at top to display menu options...
+
+on side/below: about, contact reviews.
+
+gallery options: scenery, portraits/family, fauna, culture
+
+
+
+K. So in Gallery.php, I also want to make the number of columns fluid :) check!
+, and add 'polaroid' areas for description and price. check :)
+And make keywords show up on a mouseOver. :)
+and make the picture become big and visible on a click. check! :)
+
+K. So now, I want it to start reacting when I click on pictures in the gallery. When I click on pictures, I want them to maximize, the background fade, and display the caption, picture, price, etc. *I need to update the 'alt' tag in all of them as well, and have it so the caption comes up on hover!
+I also want to change the search to match caption words as well as keywords!
+
+
+
+
+BUG
+Why does the event listener for resizing not work?
+Why does the button and price show up on expanded view?
+
+QUESTION When I use onlick to change a div's CSS, why does the z-index change back automatically but the background-color doesn't?
+
+SQL:
+Is there a setting that makes 'show databases' not work?
+
+Next: create the cart page and make the picture get added to the cart .... something... database slot? ... when it gets clicked.
+
+
+
+Okay.When we click on the cart button, I want it to add the picture to the cart (via AJAX) and say it was added on the screen, but not go to the cart page. The AJAX response can hold a link to it as well.
+I need to really clean up this page - it's getting very hard to follow and it could be much better.
+I want the caption, price, and add-to-cart button to show up in the expanded view as well.
